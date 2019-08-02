@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#F15656" d="M0 0h40v40z"/>
+        <text fill="#FFF" font-family="SourceHanSansCN-Normal, Source Han Sans CN" font-size="12" transform="rotate(45 25.789 13.789)">
+            <tspan x="12.289" y="18.789">NEW</tspan>
+        </text>
+    </g>
+</svg>

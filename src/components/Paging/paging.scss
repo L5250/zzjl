@@ -1,0 +1,36 @@
+.paging{
+    display: flex;
+    min-width: 1200px;
+    background: #fff;
+    height: 100px;
+    justify-content: center;
+    .paging-num{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+           
+            float: left;
+            span{
+                margin: 0 16.5px;
+                width: 30px;
+                height: 30px;
+            }
+            .paging-up{
+                margin-right:16.5px;
+                margin-top: -3px;
+            }
+            .paging-next{
+                margin-left:16.5px;
+                margin-top: -3px;
+            }
+        }
+        &::after{
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="206" height="71" viewBox="0 0 206 71">
+    <defs>
+        <filter id="a" width="121.8%" height="163.4%" x="-10.9%" y="-23.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6.5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.595894803 0 0 0 0 0.714894514 0 0 0 0 0.906994048 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="b" x1="19.57%" x2="81.46%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#6DA5FF"/>
+            <stop offset="100%" stop-color="#488EFF"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#a)">
+        <rect width="180" height="45" fill="url(#b)" rx="22.5" transform="translate(13 7)"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M47.627 40l2.75-3.388-2.75-1.355V40zM60 19L38 30.516l6.877 2.708 11.687-10.161-8.937 10.161 8.937 2.71L60 19z"/>
+        <text fill="#FFF" font-family="PingFangSC-Medium, PingFang SC" font-size="16" font-weight="400">
+            <tspan x="67" y="35">发布到简历库</tspan>
+        </text>
+    </g>
+</svg>

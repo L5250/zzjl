@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="33" viewBox="0 0 148 33">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#488EFF" d="M27.203 18.023L30 26h-4.16l-2.798-7.977H27.203zm1.853-2.322H15.35V.76h9.51l.046 1.984H19.51v10.974h5.35V.76h4.196V15.701zm-12.028 2.322h4.16L18.393 26h-4.196l2.832-7.977h-.001zm-12.203 2.11h3.776v-4.432H4.825v4.432zm0-6.584h3.776V8.822H4.825v4.727zm0-6.922h3.776V2.195H4.825v4.432zm8.881 15.7h-1.119v3.63H8.601v-3.63H0v-2.194h.84V2.195H0V0h13.717l-.01 2.195h-1.12v17.938h1.13l-.01 2.195-.001-.001zm24.22-7.699H55.57v-3.002H37.926v3.002zm0-4.904H55.57V5.707l.01 1.65H37.926v2.367zm-3.936 6.89V5.37h10.703V0H48.7v1.818h10.749v1.987h-10.75v1.564h10.808v11.246H48.492v3.55H60l-.01 1.988H48.491V26h-4.006v-3.847H32.61v-1.987h11.877v-3.551H33.99v-.001z"/>
+        <text fill="#9B9B9B" font-family="PingFangSC-Regular, PingFang SC" font-size="16" transform="translate(0 -3)">
+            <tspan x="68" y="17">职卓加盟商</tspan>
+        </text>
+        <text fill="#9B9B9B" font-family="PingFangSC-Regular, PingFang SC" font-size="16" transform="translate(0 -3)">
+            <tspan x="67" y="32">zzzpin.com</tspan>
+        </text>
+    </g>
+</svg>

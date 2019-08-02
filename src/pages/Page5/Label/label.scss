@@ -1,0 +1,86 @@
+.labela {
+    width: 275px;
+    height: 266px;
+    background-color: #ffffff;
+    margin-top: 42px;
+    padding: 13px 9px;
+
+    .label-title {
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            display: flex;
+            line-height: 16px;
+
+            .line {
+                width: 2px;
+                height: 16px;
+                background-color: #488eff;
+                margin: 0 6px 10px 6px;
+            }
+
+            .label-word {
+                font-size: 16px;
+                color: #383b39;
+            }
+        }
+
+        .right {
+            display: flex;
+            height: 20px;
+            cursor: pointer;
+
+            img {
+                margin-right: 3px;
+            }
+
+            .right-word {
+                line-height: 20px;
+                font-family: PingFangSC;
+                font-size: 14px;
+                letter-spacing: 0.78px;
+                color: #488eff;
+            }
+        }
+    }
+
+    .bottom {
+        // width: 276px;
+        // height: 3px;
+        border-bottom: solid 1px #e5e9f0;
+        margin: 7px 0 15px 0;
+    }
+
+    .add {
+        display: flex;
+        width: 100%;
+        height: auto;
+        border-radius: 2px;
+        background-color: #f5f8fc;
+        margin-bottom: 12px;
+        justify-content: space-between;
+        transition: background-color 0.8s;
+        -webkit-transition:  background-color 0.8s;
+
+        &:hover {
+            background-color: #e4f0ff;
+
+            .add-img {
+                display: block;
+            }
+        }
+
+        .label-word {
+            margin: 8px;
+            width: 210px;
+        }
+
+        .add-img {
+            margin-right: 10px;
+            cursor: pointer;
+            display: none;
+        }
+    }
+
+}

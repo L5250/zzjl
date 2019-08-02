@@ -1,0 +1,103 @@
+.page3 {
+    width: 1200px;
+    margin: 0 auto;
+    letter-spacing: 0.78px;
+    position: relative;
+    font-family: PingFangSC;
+    display: flex;
+
+    .num{
+        color: #488eff;
+        font-size: 13px;
+        margin-bottom: 11px;
+    }
+     .line{
+        border-bottom: 1px solid #e5e9f0;
+        
+    }
+    .page3-input {
+        width: 300px;
+        height: 40px;
+        margin: 10px 0 10px 10px;
+    }
+   .page3-text{
+        margin: 10px 0 10px 10px;
+        min-height: 66px;
+        width: 100%;
+        padding: 19px 13px 10px 17px;
+        line-height: 2;
+        letter-spacing: 0.78px;
+        color: #868e98;
+        border-radius: 2px;
+        border: solid 1px #acb7c2;
+   }
+
+    .page-left {
+        background: #fff;
+        position: relative;
+        top: 40px;
+        margin-bottom: 26px;
+        margin-right: 18px;
+        width: 906px;
+        padding: 16px 45px;
+
+        .square {
+            width: 4px;
+            height: 23px;
+            background-color: #488eff;
+            margin-right: 10px;
+            margin-bottom: 7px;
+        }
+
+        .title {
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: #383b39;
+            line-height: 23px;
+            // margin-top: 26px;
+        }
+
+        .add-img{
+            margin: 0 4px;
+            // color: #488eff;
+        }
+        .add{
+            letter-spacing: 0.78px;
+            color: #488eff;
+        }
+
+        .inp1 {
+            margin-top: 25px;
+            padding: 0 10px;
+            .inp-f {
+                display: flex;
+                justify-content: space-between;
+                // width: 378px;
+            }
+        }
+        .page3-check{
+            display: flex;
+            line-height: 42px;
+            justify-content: flex-end;
+            margin-top: 20px;
+            .page3-cancle{
+                color: #8a8a8a;
+            }
+            .page3-ok{
+                margin-left: 27px;
+                color: #fff;
+                text-align: center;
+                width: 80px;
+                height: 42px;
+                border-radius: 4px;
+                box-shadow: 0 2px 6px 0 #96afd7;
+                background-color: #488eff;
+            }
+        }
+
+
+    }
+
+
+}

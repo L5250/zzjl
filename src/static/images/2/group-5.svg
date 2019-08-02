@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="16" viewBox="0 0 42 16">
+    <g fill="#34B769" fill-rule="evenodd">
+        <rect width="42" height="16" opacity=".217" rx="8"/>
+        <text font-family="PingFangSC-Regular, PingFang SC" font-size="10" letter-spacing=".556">
+            <tspan x="5" y="12">已返现</tspan>
+        </text>
+    </g>
+</svg>

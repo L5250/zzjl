@@ -1,0 +1,221 @@
+.page1 {
+    .phone {
+        position: absolute;
+        margin-left: 8px;
+        width: 130px;
+        height: 30px;
+        border-radius: 2px;
+        background-color: #001a43;
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+        display: none;
+    }
+
+    .label {
+        display: flex;
+
+        .label-img {
+            margin-left: 76px;
+        }
+
+        .num {
+            color: #ffffff;
+            position: relative;
+            left: -18px;
+            line-height: 85px;
+        }
+
+        .label-word {
+            width: 142px;
+            height: 22px;
+            border-radius: 5px;
+            border: solid 1px #f5a623;
+            text-align: center;
+            position: relative;
+            top: 30.5px;
+            left: -11px;
+        }
+
+        .add {
+            margin: 0 5px 0 9px;
+        }
+
+        .add-word {
+            letter-spacing: 0.78px;
+            color: #868e98;
+            line-height: 85px;
+
+        }
+    }
+
+    .gowork {
+        margin-left: 76px;
+
+        .sign-iterview {
+            width: 76px;
+            height: 30px;
+            border-radius: 2px;
+            border: solid 1px #488eff;
+            background-color: #488eff;
+            text-align: center;
+            line-height: 30px;
+            margin-top: 8px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .sign-mount {
+            width: 76px;
+            height: 30px;
+            border-radius: 2px;
+            border: solid 1px #cfd2d0;
+            text-align: center;
+            line-height: 30px;
+        }
+    }
+
+    //筛选框
+
+    //展示状态
+    // .sort-b {
+    //     display: none;
+
+    // }
+
+    .screenSort {
+        width: 1200px;
+        height: 240px;
+        border-radius: 4px;
+        border: solid 1px #efefef;
+        background-color: #fcfcfc;
+        padding: 21px 24px 0 15px;
+
+        .cols {
+            display: flex;
+            white-space: nowrap;
+            text-align: center;
+            font-size: 14px;
+            line-height: 26px;
+            margin-bottom: 18px;
+
+            .sort-title {
+                width: 70px;
+                height: 20px;
+                text-align: right;
+                color: #383b39;
+                margin-right: 15px;
+            }
+
+            .sort-word {
+                // width: 80px;
+                height: 26px;
+                color: #8a8a8a;
+                margin-right: 24px;
+                cursor: pointer;
+            }
+
+            .sel {
+                width: 136px;
+                height: 24px;
+                border-radius: 1px;
+                border: solid 1px #eaeaea;
+                line-height: 24px;
+                padding: 0 12px;
+                background-image: url("../../static/images/5/triangle_2.svg");
+
+            }
+
+            .action {
+                width: 80px;
+                border-radius: 13px;
+                background-color: #488eff;
+                color: #ffffff;
+            }
+
+        }
+
+        .packUp {
+            color: #488eff;
+            position: relative;
+            top: -40px;
+            text-align: right;
+            cursor: pointer;
+
+            img {
+                margin-left: 7px;
+            }
+        }
+    }
+
+    // 隐藏状态
+    .sort-unfold {
+        width: 1200px;
+        height: 58px;
+        border-radius: 4px;
+        border: solid 1px #efefef;
+        background-color: #fcfcfc;
+        display: flex;
+        padding: 19px 15px;
+        white-space: nowrap;
+        justify-content: space-between;
+        font-size: 14px;
+
+        .aa {
+            width: 70px;
+            height: 20px;
+            text-align: right;
+            color: #383b39;
+            margin-right: 15px;
+        }
+
+        .aaa {
+            height: 26px;
+            color: #8a8a8a;
+            margin-right: 24px;
+            cursor: pointer;
+        }
+
+        .sel {
+            width: 136px;
+            height: 24px;
+            border-radius: 1px;
+            border: solid 1px #eaeaea;
+            line-height: 24px;
+            padding: 0 12px;
+            background-image: url("../../static/images/5/triangle_2.svg");
+
+        }
+
+        .f {
+            color: #9b9b9b;
+            text-align: right;
+            cursor: pointer;
+
+            img {
+                margin-left: 7px;
+            }
+        }
+    }
+
+
+}
+
+.updata-modal {
+    width: 546px;
+    height: 345px;
+    border-radius: 6px;
+    background-color: #ffffff;
+
+    .ant-modal-header {
+        border: none;
+        text-align: center;
+    }
+
+    .updata-img {
+        width: 240px;
+        height: 76px;
+        margin: -10px 138px 34px 138px;
+    }
+}

@@ -1,0 +1,106 @@
+.page6{
+    .box-a{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        height: 78px;
+        padding: 0 18px;
+        justify-content: space-between;
+        .title-tab{
+            .word{
+                font-size: 16px;
+                color: #8a8a8a;
+                margin-right: 42px;
+                line-height: 78px;
+
+            }
+        }
+        .box-aa{
+            display: flex;
+            .search{
+                width: 260px;
+                height: 34px;
+                border-radius: 17px;
+                border: solid 1px #e7ecf4;
+                background-color: #ffffff;
+                margin: auto 25px;
+                padding: 7px 22px;
+            }
+            .issuer{
+                width: 106px;
+                height: 34px;
+                border-radius: 4px;
+                border: solid 1px #488eff;
+                margin:auto;
+                color: #9b9b9b;
+                line-height: 30px;
+                img{
+                    margin: 7px 3px 10px 9px;
+                }
+            }
+        }
+    }
+
+
+    .page6-list-mian{
+        .list-main{
+            .list{
+                // 左边样式
+                .list-left{
+                    .l-top{
+
+                    }
+                    .l-middle{
+
+                    }
+                    .l-bottom{
+
+                    }
+                }
+//中间样式
+                .left-middle{
+                    .mid-left{
+                        .a{
+
+                        }
+                    }
+                    .mid-middle{
+                        .b{
+
+                        }
+                    }
+                    .mid-right{
+                        .c{
+
+                        }
+                    }
+                    .mid-last{
+                        .d{
+
+                        }
+                    }
+
+                    //隔开符
+                    .mid-line{
+
+                    }
+                    .word{
+
+                    }
+                }
+
+                // 右边样式
+                .list-right{
+                    .right-a{
+
+                    }
+                    .right-b{
+                        
+                    }
+                }
+            }
+        }
+    }
+
+
+}

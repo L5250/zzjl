@@ -1,0 +1,118 @@
+.page1 {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 29px 0;
+    font-size: 16px;
+    font-family: PingFangSC;
+    background: #fff;
+
+    .page1-tab {
+        margin-right: 92px;
+
+        .page1-tab-word {
+            padding-right: 20px;
+            color: #949494;
+        }
+    }
+
+
+    .newResume {
+        font-family: PingFangSC;
+        font-size: 14px;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        border-radius: 4px;
+        box-shadow: 0 0 12px 0 #dee4f0;
+        background-color: #ffffff;
+        margin-bottom: 21px;
+        padding: 8px 14px;
+
+        .newResume-message {
+            margin-right: 38px;
+
+            .newResume-num {
+                font-family: SourceHanSansCN;
+                font-size: 13px;
+                color: #488eff;
+                margin-right: 10px;
+            }
+
+            .newResume-time {
+                font-size: 12px;
+                color: #aaaaaa;
+            }
+
+            .newResume-name {
+                font-size: 16px;
+                font-weight: bolder;
+                letter-spacing: 0.89px;
+                color: #1e2320;
+                margin-right: 5px;
+            }
+
+            .newResume-post {
+                line-height: 20px;
+                font-size: 13px;
+                letter-spacing: 0.72px;
+                color: #8a8a8a;
+                margin-top: -2px;
+            }
+
+            .newResume-mes {
+                display: flex;
+            }
+        }
+
+        .newResume-edu {
+
+            .newResume-edu-time1,
+            .newResume-edu-time2 {
+                font-family: PingFangSC;
+                font-size: 14px;
+                letter-spacing: 0.78px;
+                color: #9b9b9b;
+                line-height: 20px;
+            }
+
+            .newResume-edu-time {
+                font-size: 14px;
+                letter-spacing: 0.78px;
+
+            }
+        }
+
+        .newResume-point {
+            // background: url('../../static//images/1/oval-2-copy.svg');
+            width: 4px;
+            height: 4px;
+            margin: 0 4px;
+        }
+
+
+        .discard {
+            width: 153px;
+            height: 52px;
+            margin: 27px 95px 21px 97px;
+        }
+
+        .versions {
+            margin-top: 12px;
+            .ver-a {
+                text-align: center;
+                font-size: 30px;
+                font-weight: 500;
+                letter-spacing: 1.67px;
+                color: #4a4a4a;
+            }
+
+            .ver-b {
+                font-size: 11px;
+                letter-spacing: 0.61px;
+                color: #a1a1a1;
+            }
+
+        }
+    }
+
+}

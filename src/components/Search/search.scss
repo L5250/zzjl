@@ -1,0 +1,47 @@
+.search {
+    height: 152px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f6f9fc;
+
+    .search-input {
+        margin: 0 auto;
+        width: 780px;
+        position: relative;
+
+        .serach-inp {
+            font-size: 16px;
+            width: 100%;
+            height: 52px;
+            border-radius: 26px;
+            box-shadow: 0 4px 12px 0 #dae3f5;
+            background-color: #ffffff;
+            margin-top: 34px;
+            text-indent: 26px;
+        }
+
+        .search-img {
+            position: absolute;
+            bottom: 14px;
+            right: 20px;
+        }
+    }
+
+    .recently-search {
+        margin-top: 21px;
+        font-size: 16px;
+        text-align: center;
+        white-space: nowrap;
+
+        .recently-search-word {
+            margin-right: -9px;
+            color: #7b7f7e;
+        }
+
+        .recently-search-data {
+            margin: 0 19px;
+            color: #488eff;
+        }
+    }
+
+}
