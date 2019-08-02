@@ -1,13 +1,14 @@
-.page6{
-    .box-a{
+.page6 {
+    .box-a {
         width: 1200px;
         margin: 0 auto;
         display: flex;
         height: 78px;
         padding: 0 18px;
         justify-content: space-between;
-        .title-tab{
-            .word{
+
+        .title-tab {
+            .word {
                 font-size: 16px;
                 color: #8a8a8a;
                 margin-right: 42px;
@@ -15,87 +16,207 @@
 
             }
         }
-        .box-aa{
+
+        .box-aa {
             display: flex;
-            .search{
-                width: 260px;
-                height: 34px;
-                border-radius: 17px;
-                border: solid 1px #e7ecf4;
-                background-color: #ffffff;
+
+            .search-box {
                 margin: auto 25px;
-                padding: 7px 22px;
+                position: relative;
+
+                .search {
+                    width: 260px;
+                    height: 34px;
+                    border-radius: 17px;
+                    border: solid 1px #e7ecf4;
+                    background-color: #ffffff;
+                    padding: 7px 22px;
+                }
+
+                .search-img {
+                    height: 17px;
+                    position: absolute;
+                    right: 17px;
+                    top: 8px;
+                }
             }
-            .issuer{
+
+            .issuer {
                 width: 106px;
                 height: 34px;
                 border-radius: 4px;
                 border: solid 1px #488eff;
-                margin:auto;
+                margin: auto;
                 color: #9b9b9b;
                 line-height: 30px;
-                img{
+
+                img {
                     margin: 7px 3px 10px 9px;
+                }
+
+                span {
+                    color: #488eff;
                 }
             }
         }
     }
 
 
-    .page6-list-mian{
-        .list-main{
-            .list{
+    .page6-list-main {
+        width: 100%;
+        background: #fff;
+
+        .list-main {
+            width: 1200px;
+            margin: 0 auto;
+            padding: 30px 0;
+
+            .list {
+                padding: 24px 28px 16px 24px;
+                width: 1200px;
+                height: 126px;
+                border-radius: 4px;
+                box-shadow: 0 0 12px 0 #dee4f0;
+                background-color: #ffffff;
+                display: flex;
+                position: relative;
                 // 左边样式
-                .list-left{
-                    .l-top{
+                .list-left {
+                    margin-right: 131px;
+                    .l-top {
+                        display: flex;
 
+                        .top-1 {
+                            font-size: 16px;
+                            font-weight: 500;
+                            letter-spacing: 0.89px;
+                            color: #1e2320;
+                        }
+
+                        .top-2 {
+                            width: 45px;
+                            height: 18px;
+                            border-radius: 9px;
+                            background-color: #eaeaea;
+                            letter-spacing: 0.7px;
+                            color: #9b9b9b;
+                            font-size: 11px;
+                            text-align: center;
+                            margin: 3px 22px 3px 9px;
+                        }
+
+                        .top-3 {
+                            font-size: 11px;
+                            letter-spacing: 0.7px;
+                            color: #9b9b9b;
+                            line-height: 22px;
+                        }
                     }
-                    .l-middle{
 
+                    .l-middle {
+                        font-size: 14px;
+                        letter-spacing: 0.78px;
+                        margin: 14px 0 12px 0;
+                        .red {
+                            color: #eb1f38;
+                        }
+
+                        .line {
+                            margin: 0 10px;
+                        }
+
+                        span {}
                     }
-                    .l-bottom{
 
+                    .l-bottom {
+                        font-size: 13px;
+                        letter-spacing: 0.72px;
+                        color: #9b9b9b;
                     }
                 }
-//中间样式
-                .left-middle{
-                    .mid-left{
-                        .a{
 
+                //中间样式
+                .left-middle {
+                    display: flex;
+                    text-align: center;
+                    margin-top: 11px;
+                    .mid-left {
+                        .a {
+                            font-family: Impact;
+                            font-size: 28px;
+                            letter-spacing: 1.78px;
+                            color: #4a4a4a;
                         }
                     }
-                    .mid-middle{
-                        .b{
 
+                    .mid-middle {
+                        .b {
+                            font-size: 28px;
+                            font-family: Impact;
+                            letter-spacing: 1.78px;
+                            color: #f5a623;
                         }
                     }
-                    .mid-right{
-                        .c{
 
+                    .mid-right {
+                        .c {
+                            font-family: Impact;
+                            font-size: 28px;
+                            letter-spacing: 1.78px;
+                            color: #f5a623;
                         }
                     }
-                    .mid-last{
-                        .d{
 
+                    .mid-last {
+                        .d {
+                            font-family: Impact;
+                            font-size: 28px;
+                            letter-spacing: 1.78px;
+                            color: #8a8a8a;
                         }
                     }
 
                     //隔开符
-                    .mid-line{
-
+                    .mid-line {
+                        width: 2px;
+                        height: 40px;
+                        border: solid 1px #e6e9ef;
+                        margin: 7px 20px;
                     }
-                    .word{
 
+                    .word {
+                        font-family: PingFangSC;
+                        font-size: 12px;
+                        letter-spacing: 0.76px;
+                        color: #9b9b9b;
                     }
                 }
 
                 // 右边样式
-                .list-right{
-                    .right-a{
-
+                .list-right {
+                    font-size: 14px;
+                    text-align: center;
+                    line-height: 30px;
+                    position: absolute;
+                    right: 28px;
+                    margin-top: 3px;
+                    .right-a {
+                        width: 68px;
+                        height: 30px;
+                        border-radius: 2px;
+                        border: solid 1px #488eff;
+                        letter-spacing: 0.89px;
+                        color: #488eff;
+                        margin-bottom: 12px;
                     }
-                    .right-b{
-                        
+
+                    .right-b {
+                        width: 68px;
+                        height: 30px;
+                        border-radius: 2px;
+                        border: solid 1px #cfd2d0;
+                        letter-spacing: 0.89px;
+                        color: #8a8a8a;
                     }
                 }
             }
